@@ -1,0 +1,155 @@
+
+body{
+	background-color: white;
+	background-size: cover;
+	font-family: nimbus sans L;}
+
+div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+#head-block-center-top{
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 20em;
+	background-color: white;
+	color:white;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+	
+h1{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	float:left;
+
+}
+
+h2{ 
+	text-align:center; }
+
+#middle-text{
+	text-align:center;
+	padding-top: 80px
+}
+
+#profile {
+	float: right;
+	width: 5em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-top: 30px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.2); 
+}
+
+#italic-text{
+	font-size: 40px; 
+	padding-top: 10px;
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+}
+
+#italic-text p{
+	text-shadow: 0px 0px 30px rgba(0,0,0,0.8);}
+
+.row{
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+	padding-bottom:100px;
+	margin-top: 10px;
+	margin-left: 60px;
+	margin-right:60px;
+
+}
+.column {
+	float: left;
+	width: 50%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+ 	clear: both;
+}
+
+.column-content{
+	height: 10em;
+	background-color: white;
+	padding-left:60px;
+	padding-right:60px;
+	padding-bottom: 40px
+	margin-bottom: 5px; 
+}
+	
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 15px;
+}
+
+a:hover {
+	font-style: italic;
+  	color: brown;
+ 	text-decoration: none;
+}
+
+
+.btn-orange{
+	background-color: white;
+	color: black;
+	padding: 20px 20px;
+	border-radius: 10px;
+
+}
+
+.btn-orange:hover{
+	background-color: black;
+	color: brown;
+	padding: 20px 20px;
+	border-radius: 10px;
+}
+
+.list-inline{
+	list-style: none;
+	padding: 0;
+	text-align:center;
+	padding-top:20px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover{
+	font-size: 50px;
+	color: brown ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
